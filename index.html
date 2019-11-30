@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML5 Puzzle</title>
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      background: #fab;
+    }
+    canvas {
+      background: white;
+    }
+    button {
+      padding: 0;
+    }
+    #preview {
+      max-width: 500;
+      max-height: 500;
+    }
+
+    #statement {
+      font-size: 72px;
+      background: linear-gradient(90deg, #7332a8, #32a8a8, #32a842);
+      background-clip: text;
+      color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: "Architects Daughter", sans;
+    }
+  </style>
+  <body>
+    <canvas id="canvas"></canvas>
+    <img id="preview" alt="image preview" />
+    <br />
+    <label for="width">Width</label>
+    <input type="number" name="width" id="width" value="4" />
+    <br />
+    <label for="height">Height</label>
+    <input type="number" name="height" id="height" value="4" />
+    <br />
+    <button>
+      <img src="img/compressed_doggo1.jpg" width="50" height="50" />
+    </button>
+    <button>
+      <img src="img/compressed_doggo2.jpg" width="50" height="50" />
+    </button>
+    <button>
+      <img src="img/compressed_doggo3.jpg" width="50" height="50" />
+    </button>
+    <button>
+      <img src="img/compressed_doggo4.jpg" width="50" height="50" />
+    </button>
+    <button>
+      <img src="img/compressed_doggo5.jpg" width="50" height="50" />
+    </button>
+    <button>
+      <img src="img/compressed_doggo6.jpg" width="50" height="50" />
+    </button>
+    <button>
+      <img src="img/compressed_doggo7.jpg" width="50" height="50" />
+    </button>
+    <button>
+      <img src="img/compressed_doggo8.jpg" width="50" height="50" />
+    </button>
+    <button>
+      <img src="img/compressed_doggo9.jpg" width="50" height="50" />
+    </button>
+    <button>
+      <img src="img/compressed_doggo10.jpg" width="50" height="50" />
+    </button>
+    <button>
+      <img src="img/compressed_doggo11.jpg" width="50" height="50" />
+    </button>
+    <button>
+      <img src="img/compressed_doggo12.jpg" width="50" height="50" />
+    </button>
+    <br />
+    <p id="statement">
+      btw, graphic design is my passion
+    </p>
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
