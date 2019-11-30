@@ -1,5 +1,5 @@
 import { Piece } from "./Piece.js";
-import { shuffle } from "./utils.js";
+import { evenlyShuffle } from "./utils.js";
 import { RedPiece } from "./RedPiece.js";
 
 export class Puzzle {
@@ -66,7 +66,7 @@ export class Puzzle {
   }
 
   shufflePieces() {
-    const newPieces = shuffle(this.pieces);
+    const newPieces = evenlyShuffle(this.pieces);
     newPieces[this.redPieceIdx] = new RedPiece(
       this.pieceWidth,
       this.pieceHeight
